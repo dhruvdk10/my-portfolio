@@ -1,0 +1,1015 @@
+body {
+  background: #000000;
+  color: white;
+  font-family: Arial;
+}
+
+/* Navbar */
+
+.custom-navbar {
+  background: #000000;
+  padding: 18px 0;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+
+.brand-logo {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.brand-logo:hover {
+  color: white;
+}
+
+/* Resume Button */
+
+.resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 8px 18px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.resume-btn i {
+  font-size: 16px;
+}
+
+.resume-btn:hover {
+  background: #00eeff;
+  border: 1px solid #00eeff;
+  color: black;
+}
+
+section {
+  padding: 50px 0 100px 0;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #000000;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Background image */
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("/portfolio-banner.jpg") center/cover no-repeat;
+
+  filter: blur(10px);
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 3;
+  text-align: center
+}
+
+.hero-intro {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.hero-name {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-name span {
+  color: #00eeff;
+}
+
+.hero-typing {
+  font-size: 20px;
+  color: #ccc;
+  min-height: 40px;
+  margin-bottom: 30px;
+  font-family: monospace;
+}
+
+/* Common button layout */
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+/* View Projects button */
+.project-btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffffffcc;
+  color: #000000;
+  border: none;
+  width: 150px;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.project-btn:hover {
+  background-color: rgb(165, 165, 165);
+  color: #000000;
+}
+
+.github-btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #4c4c4c99;
+  color: #ffffff;
+  border: none;
+  width: 150px;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.github-btn:hover {
+  background-color: #00000099;
+}
+
+/* Icon size */
+.btn-icon {
+  font-size: 30px;
+}
+
+#about {
+  padding: 50px 0 100px 0;
+  background: #111;
+  color: white;
+}
+
+.about-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.about-title span {
+  color: #00ff80;
+}
+
+/* terminal box */
+
+.terminal-text {
+  background: transparent;
+  border-radius: 10px;
+  margin: auto;
+  color: #ccc;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+/* lines */
+
+.line {
+  opacity: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  margin-bottom: 10px;
+}
+
+/* animation delays */
+
+.start .line1 {
+  animation: typing 2s steps(30, end) forwards, blink .8s infinite;
+}
+
+.start .line2 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 2s;
+}
+
+.start .line3 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 4s;
+}
+
+.start .line4 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 6s;
+}
+
+.start .line5 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 8s;
+}
+
+.start .line6 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 10s;
+}
+
+.start .line7 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 12s;
+}
+
+.start .line8 {
+  animation: typing 2s steps(40, end) forwards, blink .8s infinite;
+  animation-delay: 14s;
+}
+
+.terminal-text span {
+  transition: all 0.3s ease;
+}
+
+.terminal-text span:hover {
+  color: #00ff80;
+  transform: translateY(-3px);
+  text-shadow: 0 0 8px #00ff80;
+  cursor: arrow;
+}
+
+/* typing */
+
+@keyframes typing {
+  from {
+    width: 0;
+    opacity: 1;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* cursor */
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-dots {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  height: 20px;
+  margin: 50px 0 0 0;
+}
+
+.typing-dots div {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transform: translateY(0);
+  animation: sequential-bounce 1s forwards;
+  animation-iteration-count: 16;
+}
+
+/* stagger each dot inside the single animation */
+.typing-dots div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-dots div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.typing-dots div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.typing-dots div:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+/* keyframes for ONE dot bounce sequence */
+@keyframes sequential-bounce {
+
+  0%,
+  25%,
+  100% {
+    transform: translateY(0);
+  }
+
+  /* start and stay */
+  10% {
+    transform: translateY(-50px);
+  }
+
+  /* move up */
+  20% {
+    transform: translateY(5px);
+  }
+
+  /* minor negative dip */
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.project-card {
+  border: none;
+  margin-bottom: 20px;
+  border: 2px solid #2b2b2b;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#projects {
+  padding: 50px 0 100px 0;
+  background: #272727;
+  color: white;
+}
+
+.projects-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.projects-title span {
+  color: #ff5a5f;
+}
+
+.projects-subtitle {
+  color: #cfcfcf;
+  margin-bottom: 50px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0.7;
+}
+
+/* Scale image slightly on hover */
+.project-card:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+  border: 2px solid #aaa;
+}
+
+/* Overlay with icons */
+.project-overlay-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.project-card:hover .project-overlay-icons {
+  opacity: 1;
+}
+
+/* Icon style */
+.project-overlay-icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background: #272727;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.project-overlay-icons .icon:hover {
+  background: #ff5a5f;
+  color: #000000;
+}
+
+a {
+  color: #43c7ff;
+}
+
+#skills {
+  padding: 50px 0 100px 0;
+  background: #1c1c1c;
+  color: white;
+}
+
+.skills-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.skills-title span {
+  color: #b061ff;
+}
+
+.skills-subtitle {
+  color: #bfbfbf;
+  margin-bottom: 40px;
+}
+
+.skill-category {
+  display: inline-block;
+  border: 2px solid #777;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.skill-category:hover {
+  border: 2px solid #b061ff;
+  background: #b061ff;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-grid img {
+  width: 70px;
+  height: 70px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skill-item {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.skill-item span {
+  position: absolute;
+  bottom: -30px;
+  background: #1c1c1c;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.skill-item:hover span {
+  opacity: 1;
+}
+
+.interest-icon {
+  font-size: 38px;
+  transition: 0.3s;
+}
+
+.skills-grid .skill-item:hover {
+  transform: scale(1.1);
+}
+
+/* Football */
+.football {
+  color: #ff9500;
+  /* green */
+}
+
+/* Chess */
+.chess {
+  color: #4a4a4a;
+  /* dark */
+}
+
+/* Gaming */
+.gaming {
+  color: #00ff80;
+  font-size: 50px;
+  /* cyan */
+}
+
+/* Music */
+.music {
+  color: #ff5ac8;
+  /* pink */
+}
+
+#certificates {
+  padding: 50px 0 100px 0;
+  background: #333333;
+  color: white;
+}
+
+.certificates-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.certificates-title span {
+  color: #ff5ac8;
+}
+
+.certificates-subtitle {
+  color: #cfcfcf;
+  margin-bottom: 50px;
+}
+
+.certificate-card {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border: 2px solid #272727;
+}
+
+.certificate-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  opacity: 0.7;
+}
+
+.certificate-card:hover {
+  transform: scale(1.1);
+  transition: all 0.13s ease-in-out;
+  border: 2px solid #aaa;
+}
+
+/* Slight zoom on hover */
+.certificate-card:hover img {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+
+/* Overlay with icons */
+.certificate-overlay-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.certificate-card:hover .certificate-overlay-icons,
+.certificate-card:hover .certificate-badge {
+  opacity: 1;
+}
+
+/* Icon style */
+.certificate-overlay-icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background: #272727;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.certificate-overlay-icons .icon:hover {
+  background: #ff5ac8;
+  color: #000000;
+}
+
+.certificate-badge {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 40px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+
+#contact {
+  padding: 50px 0 100px 0;
+  background: #2b2b2b;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Background image */
+
+.contact-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("/portfolio-footer-banner.jpg") center/cover no-repeat;
+
+  filter: blur(15px);
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+#contact::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.contact-container {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-title span {
+  color: #fcff5a;
+}
+
+.contact-subtitle {
+  color: #cfcfcf;
+  margin-bottom: 25px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  transition: .3s;
+}
+
+.contact-item svg {
+  font-size: 40px;
+}
+
+.contact-item:hover {
+  color: #fcff5a;
+  transform: translateY(-5px);
+}
+
+/* Footer */
+
+.custom-footer {
+  background: #000000;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #cacaca;
+  margin: 0;
+}
+
+.footer-text span {
+  color: white;
+}
+
+@media (max-width: 992px) {
+
+  .hero-name {
+    font-size: 48px;
+  }
+
+  .about-title,
+  .projects-title,
+  .skills-title,
+  .certificates-title,
+  .contact-title {
+    font-size: 48px;
+  }
+
+  .typing-dots div {
+    width: 35px;
+    height: 35px;
+  }
+
+  .terminal-text {
+    font-size: 18px;
+  }
+
+  .hero-btn {
+    padding: 10px 18px;
+  }
+
+  .contact-item svg {
+    font-size: 35px;
+  }
+
+  .contact-item {
+    font-size: 20px;
+  }
+
+}
+
+
+/* ===================== */
+/* BELOW 768px (Mobile) */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+  .hero-name {
+    font-size: 38px;
+  }
+
+  .hero-intro {
+    font-size: 18px;
+  }
+
+  .hero-typing {
+    font-size: 18px;
+  }
+
+  .about-title,
+  .projects-title,
+  .skills-title,
+  .certificates-title,
+  .contact-title {
+    font-size: 40px;
+  }
+
+  .typing-dots {
+    gap: 15px;
+  }
+
+  .typing-dots div {
+    width: 30px;
+    height: 30px;
+  }
+
+  .terminal-text {
+    font-size: 16px;
+  }
+
+  .skills-grid img,
+  .skill-item {
+    width: 60px;
+    height: 60px;
+  }
+
+  .contact-links {
+    gap: 30px;
+  }
+
+  .contact-item svg {
+    font-size: 30px;
+  }
+
+  .contact-item {
+    font-size: 18px;
+  }
+
+}
+
+
+/* ===================== */
+/* BELOW 576px (Small phones) */
+/* ===================== */
+
+@media (max-width: 576px) {
+
+
+  .hero-name {
+    font-size: 32px;
+  }
+
+  .hero-intro {
+    font-size: 16px;
+  }
+
+  .hero-typing {
+    font-size: 16px;
+  }
+
+  .about-title,
+  .projects-title,
+  .skills-title,
+  .certificates-title,
+  .contact-title {
+    font-size: 32px;
+  }
+
+  .projects-subtitle,
+  .skills-subtitle,
+  .certificates-subtitle,
+  .contact-subtitle {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    width: 130px;
+    font-size: 16px;
+  }
+
+  .btn-icon {
+    font-size: 22px;
+  }
+
+  .typing-dots {
+    gap: 12px;
+  }
+
+  .typing-dots div {
+    width: 25px;
+    height: 25px;
+  }
+
+  .terminal-text {
+    font-size: 13px;
+  }
+
+  .contact-links {
+    gap: 25px;
+  }
+
+  .contact-item svg {
+    font-size: 25px;
+  }
+
+  .contact-item {
+    font-size: 16px;
+  }
+
+}
+
+
+/* ===================== */
+/* BELOW 400px (Very small phones) */
+/* ===================== */
+
+@media (max-width: 400px) {
+
+  .hero-name {
+    font-size: 26px;
+  }
+
+  .about-title,
+  .projects-title,
+  .skills-title,
+  .certificates-title,
+  .contact-title {
+    font-size: 26px;
+  }
+
+  .hero-intro,
+  .hero-typing {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    width: 120px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn-icon {
+    font-size: 18px;
+  }
+
+  .typing-dots {
+    gap: 10px;
+  }
+
+  .typing-dots div {
+    width: 20px;
+    height: 20px;
+  }
+
+  .terminal-text {
+    font-size: 12px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .contact-links {
+    gap: 20px;
+  }
+
+  .contact-item svg {
+    font-size: 20px;
+  }
+
+  .contact-item {
+    font-size: 14px;
+  }
+
+}
