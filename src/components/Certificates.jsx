@@ -6,13 +6,13 @@ function Certificates() {
     {
       title: "Web Design",
       issuer: "Croma Campus",
-      image: "/Webdesign-card.png",
+      image: "./Webdesign-card.png",
       link: "#"
     },
     {
       title: "MERN Full Stack Development",
       issuer: "Croma Campus",
-      image: "/MERN-card.png",
+      image: "./MERN-card.png",
       link: "#"
     },
   ];

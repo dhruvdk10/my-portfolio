@@ -5,37 +5,37 @@ function Projects() {
     {
       title: "KC Football Academy",
       tech: "HTML, CSS",
-      image: "/KC-card.png",
+      image: "./KC-card.png",
       github: "#"
     },
     {
       title: "Cartzon",
       tech: "HTML, CSS, Bootstrap",
-      image: "/cartzon-card.png",
+      image: "./cartzon-card.png",
       github: "#"
     },
     {
       title: "Karo Pitch",
       tech: "HTML, CSS, Javascript, Bootstrap",
-      image: "/Pitch-card.png",
+      image: "./Pitch-card.png",
       github: "#"
     },
     {
       title: "Manchitra Design Studio",
       tech: "React, HTML, CSS, Javascript Bootstrap",
-      image: "/MDS-card.png",
+      image: "./MDS-card.png",
       github: "#"
     },
     {
       title: "Swash Jwellers",
       tech: "React, HTML, CSS, Javascript Bootstrap",
-      image: "/swash-card.png",
+      image: "./swash-card.png",
       github: "#"
     },
     {
       title: "vibe",
       tech: "MERN Full Stack",
-      image: "/vibe-card.png",
+      image: "./vibe-card.png",
       github: "#"
     }
   ];
