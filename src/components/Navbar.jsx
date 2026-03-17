@@ -13,7 +13,7 @@ function Navbar() {
         </a>
 
         <a
-          href="/Resume-Dhruv-Kapoor.pdf"
+          href="./Resume-Dhruv-Kapoor.pdf"
           download
           className="resume-btn"
         >

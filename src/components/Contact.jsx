@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaFacebookF, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -20,12 +20,12 @@ function Contact() {
             <FaEnvelope />
           </a>
 
-          <a href="https://github.com/" target="_blank" className="contact-item" data-aos="zoom-in">
-            <FaGithub />
-          </a>
-
           <a href="https://linkedin.com/" target="_blank" className="contact-item" data-aos="zoom-in">
             <FaLinkedin />
+          </a>
+
+          <a href="https://facebook.com/" target="_blank" className="contact-item" data-aos="zoom-in">
+            <FaFacebookF />
           </a>
 
           <a href="https://instagram.com/" target="_blank" className="contact-item" data-aos="zoom-in">

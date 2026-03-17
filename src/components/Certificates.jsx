@@ -6,14 +6,14 @@ function Certificates() {
     {
       title: "Web Design",
       issuer: "Croma Campus",
-      image: "./Webdesign-card.png",
-      link: "#"
+      image: "./WebDesign-card.png",
+      link: "./Dhruv-Kapoor-WebDesign.pdf"
     },
     {
       title: "MERN Full Stack Development",
       issuer: "Croma Campus",
       image: "./MERN-card.png",
-      link: "#"
+      link: "./Dhruv-Kapoor-MERN.pdf"
     },
   ];
 

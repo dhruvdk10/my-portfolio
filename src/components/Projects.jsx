@@ -5,38 +5,38 @@ function Projects() {
     {
       title: "KC Football Academy",
       tech: "HTML, CSS",
-      image: "./KC-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/KC_Football_Academy/",
+      github: "https://github.com/dhruvdk10/KC_Football_Academy"
     },
     {
       title: "Cartzon",
       tech: "HTML, CSS, Bootstrap",
-      image: "./cartzon-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/BS-Cartzon.in/",
+      github: "https://github.com/dhruvdk10/BS-Cartzon.in"
     },
     {
       title: "Karo Pitch",
       tech: "HTML, CSS, Javascript, Bootstrap",
-      image: "./Pitch-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/Karo-Pitch/",
+      github: "https://github.com/dhruvdk10/Karo-Pitch"
     },
     {
       title: "Manchitra Design Studio",
       tech: "React, HTML, CSS, Javascript Bootstrap",
-      image: "./MDS-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/MDS-app_React/",
+      github: "http://github.com/dhruvdk10/MDS-app_React"
     },
     {
       title: "Swash Jwellers",
       tech: "React, HTML, CSS, Javascript Bootstrap",
-      image: "./swash-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/Swash_React/",
+      github: "https://github.com/dhruvdk10/Swash_React"
     },
     {
       title: "vibe",
       tech: "MERN Full Stack",
-      image: "./vibe-card.png",
-      github: "#"
+      link: "https://dhruvdk10.github.io/vibe.Inc_React/",
+      github: "https://github.com/dhruvdk10/vibe.Inc_React"
     }
   ];
 
@@ -55,11 +55,11 @@ function Projects() {
           {projects.map((p, i) => (
             <div className="col-md-4" key={i}>
               <div className="project-card" data-aos="fade-up">
-                <img src={p.image} alt={p.title} />
+                <img src={p.link} alt={p.title} />
 
                 {/* Overlay with icons */}
                 <div className="project-overlay-icons">
-                  <a href={p.image} target="_blank" className="icon">
+                  <a href={p.link} target="_blank" className="icon">
                     <FaEye />
                   </a>
                   <a href={p.github} target="_blank" className="icon">
