@@ -204,7 +204,10 @@ section {
 .terminal-text {
   background: transparent;
   border-radius: 10px;
-  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
   color: #ccc;
   font-family: monospace;
   font-size: 20px;
