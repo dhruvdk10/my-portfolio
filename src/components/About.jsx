@@ -33,12 +33,17 @@ function About() {
             <div className="terminal-text">
               <p className="line line1">&gt; <span>Hey</span> <span>again</span></p>
               <p className="line line2">&gt; <span>Here’s</span> <span>a</span> <span>quick</span> <span>intro</span> <span>about</span> <span>me</span></p>
-              <p className="line line3">&gt; <span>I</span> <span>enjoy</span> <span>crafting</span> <span>clean</span> <span>and</span> <span>modern</span> <span>designs</span></p>
-              <p className="line line4">&gt; <span>I</span> <span>focus</span> <span>on</span> <span>detail</span> <span>and</span> <span>visual</span> <span>quality</span></p>
-              <p className="line line5">&gt; <span>Always</span> <span>learning</span> <span>new</span> <span>things</span> <span>in</span> <span>tech</span></p>
-              <p className="line line6">&gt; <span>I</span> <span>like</span> <span>solving</span> <span>real</span> <span>world</span> <span>problems</span></p>
-              <p className="line line7">&gt; <span>Football</span> <span>and</span> <span>chess</span> <span>keep</span> <span>me</span> <span>sharp</span></p>
-              <p className="line line8">&gt; <span>Let’s</span> <span>build</span> <span>something</span> <span>unique</span> <span>together</span></p>
+              <p className="line line3">&gt; <span>I</span> <span>enjoy</span> <span>building</span> <span>clean</span> <span>and</span> <span>responsive</span> <span>websites</span></p>
+
+              <p className="line line4">&gt; <span>I</span> <span>focus</span> <span>on</span> <span>creating</span> <span>smooth</span> <span>user</span> <span>experiences</span></p>
+
+              <p className="line line5">&gt; <span>My</span> <span>skills</span> <span>include</span> <span>HTML,</span> <span>CSS,</span> <span>JavaScript,</span> <span>and</span> <span>React</span></p>
+
+              <p className="line line6">&gt; <span>I</span> <span>am</span> <span>currently</span> <span>improving</span> <span>my</span> <span>frontend</span> <span>development</span> <span>skills</span></p>
+
+              <p className="line line7">&gt; <span>Outside</span> <span>coding,</span> <span>I</span> <span>love</span> <span>playing</span> <span>football</span> <span>and</span> <span>chess</span></p>
+
+              <p className="line line8">&gt; <span>Let’s</span> <span>build</span> <span>something</span> <span>amazing</span> <span>together</span></p>
             </div>
           </div>
 
