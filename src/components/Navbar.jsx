@@ -6,7 +6,7 @@ function Navbar() {
     name: "DHRUV KAPOOR",
     resume: {
       text: "RESUME",
-      file: "/Resume-Dhruv-Kapoor.pdf"
+      file: "./Resume-Dhruv-Kapoor.pdf"
     }
   };
 
