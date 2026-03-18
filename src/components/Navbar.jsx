@@ -3,10 +3,10 @@ import { MdDownload } from "react-icons/md";
 function Navbar() {
 
   const navbarData = {
-    name: "/portfolio-logo.png", // put image in public folder
+    name: "./portfolio-logo.png",
     resume: {
       text: "RESUME",
-      file: "/Resume-Dhruv-Kapoor.pdf"
+      file: "./Resume-Dhruv-Kapoor.pdf"
     }
   };
 
