@@ -20,7 +20,7 @@ body {
 /* Logo */
 
 .brand-logo {
-   font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', serif;
   line-height: 1.05;
   letter-spacing: -1px;
   font-size: 18px;
@@ -28,9 +28,12 @@ body {
   color: white;
 }
 
-.brand-logo:hover {
-  color: white;
+.logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
+
 
 /* Resume Button */
 
