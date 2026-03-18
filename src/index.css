@@ -418,7 +418,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -547,26 +547,22 @@ a {
 /* Football */
 .football {
   color: #ff9500;
-  /* green */
 }
 
 /* Chess */
 .chess {
   color: #4a4a4a;
-  /* dark */
 }
 
 /* Gaming */
 .gaming {
   color: #00ff80;
   font-size: 50px;
-  /* cyan */
 }
 
 /* Music */
 .music {
   color: #ff5ac8;
-  /* pink */
 }
 
 #certificates {
@@ -625,7 +621,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -821,10 +817,7 @@ a {
 
 }
 
-
-/* ===================== */
-/* BELOW 768px (Mobile) */
-/* ===================== */
+/*768px (Mobile) */
 
 @media (max-width: 768px) {
 
@@ -878,13 +871,9 @@ a {
   .contact-item {
     font-size: 18px;
   }
-
 }
 
-
-/* ===================== */
-/* BELOW 576px (Small phones) */
-/* ===================== */
+/*576px (Small phones) */
 
 @media (max-width: 576px) {
 
@@ -952,10 +941,7 @@ a {
 
 }
 
-
-/* ===================== */
-/* BELOW 400px (Very small phones) */
-/* ===================== */
+/*400px (Very small phones) */
 
 @media (max-width: 400px) {
 
