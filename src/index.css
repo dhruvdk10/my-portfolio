@@ -20,8 +20,9 @@ body {
 /* Logo */
 
 .brand-logo {
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 3px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.05;
+  letter-spacing: -1px;
   font-size: 18px;
   text-decoration: none;
   color: white;
