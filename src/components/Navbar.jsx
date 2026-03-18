@@ -3,7 +3,7 @@ import { MdDownload } from "react-icons/md";
 function Navbar() {
 
   const navbarData = {
-    name: "DHRUV KAPOOR",
+    name: "./portfolio-logo.png",
     resume: {
       text: "RESUME",
       file: "./Resume-Dhruv-Kapoor.pdf"
