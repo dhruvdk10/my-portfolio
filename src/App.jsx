@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom"; // ✅ ADD THIS
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -13,16 +12,24 @@ import "aos/dist/aos.css";
 import SplashScreen from "./components/SplashScreen";
 
 function App() {
-  const [showSplash, setShowSplash] = useState(true);
+
+  const [showSplash, setShowSplash] = useState(
+    !localStorage.getItem("visited")
+  );
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
+  const handleFinish = () => {
+    localStorage.setItem("visited", "true");
+    setShowSplash(false);
+  };
+
   return (
-    <BrowserRouter> {/* ✅ WRAP EVERYTHING */}
+    <>
       {showSplash ? (
-        <SplashScreen onFinish={() => setShowSplash(false)} />
+        <SplashScreen onFinish={handleFinish} />
       ) : (
         <>
           <Navbar />
@@ -35,7 +42,7 @@ function App() {
           <Footer />
         </>
       )}
-    </BrowserRouter>
+    </>
   );
 }
 
