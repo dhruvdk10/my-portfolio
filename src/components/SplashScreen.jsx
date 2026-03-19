@@ -21,12 +21,6 @@ const SplashScreen = ({ onFinish }) => {
           />
         </NavLink>
       </div>
-
-      <div className="loading-dots">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
     </div>
   );
 };
