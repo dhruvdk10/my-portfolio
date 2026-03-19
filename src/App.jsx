@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BrowserRouter } from "react-router-dom"; // ✅ ADD THIS
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -19,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <BrowserRouter> {/* ✅ WRAP EVERYTHING */}
       {showSplash ? (
         <SplashScreen onFinish={() => setShowSplash(false)} />
       ) : (
@@ -34,7 +35,7 @@ function App() {
           <Footer />
         </>
       )}
-    </>
+    </BrowserRouter>
   );
 }
 
