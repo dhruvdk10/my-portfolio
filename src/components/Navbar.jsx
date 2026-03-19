@@ -15,7 +15,7 @@ function Navbar() {
       <div className="container nav-top">
 
         <a className="brand-logo" href="#">
-          {navbarData.name}
+          <img src={navbarData.name} className="logo-img" alt="DK Logo" />
         </a>
 
         <a
@@ -32,4 +32,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar; y
