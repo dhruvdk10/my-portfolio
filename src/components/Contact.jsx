@@ -24,19 +24,7 @@ function Contact() {
             <FaEnvelope />
           </a>
 
-          <a href="https://www.linkedin.com/in/dhruv-kapoor-dk10/" target="_blank" className="contact-item" data-aos="zoom-in">
-            <FaLinkedin />
-          </a>
-
-          <a href="https://www.facebook.com/dhruv.kapoor.54943/" target="_blank" className="contact-item" data-aos="zoom-in">
-            <FaFacebookF />
-          </a>
-
-          <a href="https://www.instagram.com/dhruv_dk10/" target="_blank" className="contact-item" data-aos="zoom-in">
-            <FaInstagram />
-          </a>
-
-          <a
+            <a
             href="https://wa.me/9667480693?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20you%20regarding%20potential%20career%20opportunities.%20I%20came%20across%20your%20profile%20and%20would%20love%20to%20have%20a%20discussion%20at%20a%20convenient%20time.%20Please%20let%20me%20know%20when%20you%20are%20available."
             target="_blank"
             rel="noopener noreferrer"
@@ -44,6 +32,18 @@ function Contact() {
             data-aos="zoom-in"
           >
             <FaWhatsapp />
+          </a>
+
+          <a href="https://www.linkedin.com/in/dhruv-kapoor-dk10/" target="_blank" className="contact-item" data-aos="zoom-in">
+            <FaLinkedin />
+          </a>
+
+           <a href="https://www.instagram.com/dhruv_dk10/" target="_blank" className="contact-item" data-aos="zoom-in">
+            <FaInstagram />
+          </a>
+
+          <a href="https://www.facebook.com/dhruv.kapoor.54943/" target="_blank" className="contact-item" data-aos="zoom-in">
+            <FaFacebookF />
           </a>
 
         </div>

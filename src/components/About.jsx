@@ -37,7 +37,7 @@ function About() {
 
               <p className="line line4">&gt; <span>I</span> <span>focus</span> <span>on</span> <span>creating</span> <span>smooth</span> <span>user</span> <span>experiences</span></p>
 
-              <p className="line line5">&gt; <span>My</span> <span>skills</span> <span>include</span> <span>HTML,</span> <span>CSS,</span> <span>JavaScript,</span> <span>and</span> <span>React</span></p>
+              <p className="line line5"> &gt; <span>My</span> <span>stack</span> <span>includes</span> <span>Web</span> <span>Development</span> <span>&amp;</span> <span>MERN</span></p>
 
               <p className="line line6">&gt; <span>I</span> <span>am</span> <span>currently</span> <span>improving</span> <span>my</span> <span>development</span> <span>skills</span></p>
 
