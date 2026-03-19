@@ -15,11 +15,7 @@ function Navbar() {
       <div className="container nav-top">
 
         <a className="brand-logo" href="#">
-          <img
-            src={navbarData.name}
-            alt="Dhruv Kapoor Logo"
-            className="logo-img"
-          />
+          {navbarData.name}
         </a>
 
         <a

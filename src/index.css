@@ -68,19 +68,10 @@ body {
 
 /* Logo */
 
-.brand-logo {
-  font-family: 'DM Serif Display', serif;
-  line-height: 1.05;
-  letter-spacing: -1px;
-  font-size: 18px;
-  text-decoration: none;
-  color: white;
-}
-
 .logo-img {
   object-fit: cover;
-  width: 150px;
-  height: 60px;
+  width: 100px;
+  height: 40px;
 }
 
 
@@ -91,8 +82,8 @@ body {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  padding: 8px 18px;
-  border: 1px solid #ffffff;
+  padding: 8px 15px;
+  border: 1px solid #888888;
   color: #ffffff;
   border-radius: 6px;
   font-family: "Raleway", sans-serif;
