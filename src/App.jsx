@@ -14,21 +14,21 @@ import SplashScreen from "./components/SplashScreen";
 
 function App() {
 
-  const [showSplash, setShowSplash] = useState(
-    !localStorage.getItem("visited")
-  );
+const [showSplash, setShowSplash] = useState(
+  !sessionStorage.getItem("visited")
+);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
   const handleFinish = () => {
-    localStorage.setItem("visited", "true");
+    sessionStorage.setItem("visited", "true");
     setShowSplash(false);
   };
 
   return (
-    <BrowserRouter> 
+    <BrowserRouter>
       {showSplash ? (
         <SplashScreen onFinish={handleFinish} />
       ) : (
