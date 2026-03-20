@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom"; // ✅ Router
+import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -14,9 +14,9 @@ import SplashScreen from "./components/SplashScreen";
 
 function App() {
 
-const [showSplash, setShowSplash] = useState(
-  !sessionStorage.getItem("visited")
-);
+  const [showSplash, setShowSplash] = useState(
+    !sessionStorage.getItem("visited")
+  );
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
