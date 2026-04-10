@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Portfolio Website
 
 A modern and responsive **portfolio website** built to showcase my projects, skills, and experience as a **Web Developer**.
 
@@ -30,7 +30,6 @@ This portfolio is designed to represent my journey as a developer, highlighting 
 ## 🌍 Live Website
 
 🔗 https://dhruvdk10.github.io/my-portfolio/
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://dhruvdk10.github.io/my-portfolio/)
 
 ## 📦 Installation & Setup
 
