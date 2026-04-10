@@ -1,16 +1,55 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **portfolio website** built to showcase my projects, skills, and experience as a **Web Developer**.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio is designed to represent my journey as a developer, highlighting my work, technical skills, and projects in a clean and user-friendly interface. It reflects my focus on building visually appealing and responsive web applications.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📱 Fully Responsive Design (Mobile + Desktop)
+* 🎨 Clean and Modern UI
+* 📄 About Me Section
+* ❤️ Hobbies & Interests Section
+* 🧑‍💻 Projects Showcase Section
+* 🏆 Certifications Section
+* ⚡ Smooth Navigation and User Experience
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** HTML, CSS, JavaScript / React
+* **Styling:** CSS3 / Bootstrap / Custom Styling
+
+## 🧑‍💻 My Role
+
+* Designed and developed the complete UI/UX
+* Built reusable components
+* Ensured responsiveness across devices
+
+## 🌍 Live Website
+
+🔗 https://dhruvdk10.github.io/my-portfolio/
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://dhruvdk10.github.io/my-portfolio/)
+
+## 📦 Installation & Setup
+
+To run this project locally:
+
+```bash
+git clone https://github.com/dhruvdk10/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+## 📈 Future Improvements
+
+* Add animations and transitions
+* Improve accessibility
+* Add blog section
+* Integrate more advanced backend features
+
+---
+
+⭐ If you like this project, feel free to give it a star!
