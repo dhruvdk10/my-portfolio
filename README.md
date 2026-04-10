@@ -11,7 +11,7 @@ This portfolio is designed to represent my journey as a developer, highlighting 
 * 📱 Fully Responsive Design (Mobile + Desktop)
 * 🎨 Clean and Modern UI
 * 📄 About Me Section
-* ❤️ Hobbies & Interests Section
+* ❤️ Skills & Hobbies Section
 * 🧑‍💻 Projects Showcase Section
 * 🏆 Certifications Section
 * ⚡ Smooth Navigation and User Experience
